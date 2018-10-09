@@ -1,4 +1,4 @@
-\# 3DPrints
+# 3DPrints
 
 Lista de componentes diseñados en 3D que he ido recopilando de diferentes sitios o creándolos:
 
