@@ -2,7 +2,7 @@
 
 El objetivo es documentar la realización una báscula de control de peso didáctica para identificar mediante 4 sensores, diferentes tipos de peso. De esta manera se puede trabajar las competencias de "Electrónica microprogramable" del ciclo de grado superior de "Mantenimiento Electrónico" relacionados con los conocimientos de electrónica combinacional (Puertas lógicas, multiplexores, decodificadores...). Tanto con chips combinacionales así como con FPGAs.
 
-![](.\Fotos\Bascula.jpg)
+![](./Fotos/Bascula.jpg)
 
 La báscula está compuesta de piezas impresas en 3D que está disponibles en este repositorio, tanto en STL como en Freecad para su impresión y modificación. Además es necesario 4 finales de carrera (aunque se podría con menos).
 
@@ -12,10 +12,10 @@ Por otra parte se ha diseñado una pequeña PCB en Kicad para facilitar el cable
 
 |  Nº  |     Archivo     |                         Descripción                          |                 Imagen                 |
 | :--: | :-------------: | :----------------------------------------------------------: | :------------------------------------: |
-|  1   |      Base       |      Base de báscula para apoyar el peso en la báscula       |         ![](.\Fotos\Base.png)          |
-|  1   |     Báscula     | Estructura de la báscula donde se sustentan todas las piezas |     ![](.\Fotos\Bascula_v0.5.png)      |
-|  1   | Báscula Lateral |  Pieza lateral de la báscula al que se apoyan los sensores   | ![](.\Fotos\Bascula_Lateral_v0.10.png) |
-|  4   | Báscula sensor  | Pieza donde se ajusta los sensores y se calibran los sensores |  ![](.\Fotos\Bascula_sensor_v0.9.png)  |
+|  1   |      Base       |      Base de báscula para apoyar el peso en la báscula       |         ![](./Fotos/Base.png)          |
+|  1   |     Báscula     | Estructura de la báscula donde se sustentan todas las piezas |     ![](./Fotos/Bascula_v0.5.png)      |
+|  1   | Báscula Lateral |  Pieza lateral de la báscula al que se apoyan los sensores   | ![](./Fotos/Bascula_Lateral_v0.10.png) |
+|  4   | Báscula sensor  | Pieza donde se ajusta los sensores y se calibran los sensores |  ![](./Fotos/Bascula_sensor_v0.9.png)  |
 
 
 
@@ -23,11 +23,11 @@ Por otra parte se ha diseñado una pequeña PCB en Kicad para facilitar el cable
 
 |  Nº  |     Nombre      |                         Descripción                          |             Imagen             |
 | :--: | :-------------: | :----------------------------------------------------------: | :----------------------------: |
-|  10  | Tornillos M3x6  |           Tornillos métricos philips de acero M3x6           | ![](.\Fotos\Tornillo_M3x6.jpg) |
-|  6   | Tornillos M3x10 |          Tornillos métricos philips de acero M3x10           | ![](.\Fotos\Tornill_M3x10.jpg) |
-|  1   |     Esponja     |              Esponja de dimensiones 11x9,5x2,5               |    ![](.\Fotos\Esponja.png)    |
-|  4   |    Sensores     | Final de carrera de movimiento ENDSTOP para ramps 1,4 impresora 3D CR-10 CR-10S CR-S4 CR-S | ![](.\Fotos\Final_Carrera.jpg) |
-|  4   |      Cable      | 3 cables multihilos con conectores para los sensores finales de carrera |     ![](.\Fotos\Cable.jpg)     |
+|  10  | Tornillos M3x6  |           Tornillos métricos philips de acero M3x6           | ![](./Fotos/Tornillo_M3x6.jpg) |
+|  6   | Tornillos M3x10 |          Tornillos métricos philips de acero M3x10           | ![](./Fotos/Tornill_M3x10.jpg) |
+|  1   |     Esponja     |              Esponja de dimensiones 11x9,5x2,5               |    ![](./Fotos/Esponja.png)    |
+|  4   |    Sensores     | Final de carrera de movimiento ENDSTOP para ramps 1,4 impresora 3D CR-10 CR-10S CR-S4 CR-S | ![](./Fotos/Final_Carrera.jpg) |
+|  4   |      Cable      | 3 cables multihilos con conectores para los sensores finales de carrera |     ![](./Fotos/Cable.jpg)     |
 
 ## Montaje de la báscula
 
@@ -42,9 +42,9 @@ Fotos del proceso de montaje de la báscula:
 
 |                  1                   |                  2                   |                  3                   |
 | :----------------------------------: | :----------------------------------: | :----------------------------------: |
-| ![](.\Fotos\IMG_20190724_121246.jpg) | ![](.\Fotos\IMG_20190724_122831.jpg) | ![](.\Fotos\IMG_20190724_122258.jpg) |
+| ![](./Fotos/IMG_20190724_121246.jpg) | ![](./Fotos/IMG_20190724_122831.jpg) | ![](./Fotos/IMG_20190724_122258.jpg) |
 |                **4**                 |                **5**                 |                **6**                 |
-| ![](.\Fotos\IMG_20190724_122724.jpg) | ![](.\Fotos\IMG_20190726_132925.jpg) | ![](.\Fotos\IMG_20190726_132832.jpg) |
+| ![](./Fotos/IMG_20190724_122724.jpg) | ![](./Fotos/IMG_20190726_132925.jpg) | ![](./Fotos/IMG_20190726_132832.jpg) |
 
 * El cableado de los sensores a la PCB, se ha recortado a una medida ajustada y en un extremo se han puesto conectores futaba o JR.
 
@@ -54,7 +54,7 @@ Fotos del proceso de montaje de la báscula:
 
 Las señales de conexión de los 4 sensores, cuando están sin pulsar los sensores están en alta impedancia (circuitos abiertos ). Al pulsar los sensores la señal de salida del sensor estará conectada a masa. Por este motivo para poder usarse estos sensores se deberá una resistencias en pull-up de 10K ohm por sensor.
 
-![](.\Fotos\resistencia-pull-up-down-e1435659241597.png)
+![](./Fotos/resistencia-pull-up-down-e1435659241597.png)
 
 No hay que olvidarse de alimentar los 4 sensores, conectandolos a una fuente de alimentación de 5V y GND sus respectivos pines.
 
