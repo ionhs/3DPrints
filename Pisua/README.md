@@ -58,6 +58,10 @@ Las señales de conexión de los 4 sensores, cuando están sin pulsar los sensor
 
 No hay que olvidarse de alimentar los 4 sensores, conectandolos a una fuente de alimentación de 5V y GND sus respectivos pines.
 
+[![Video de funcionamiento](./Fotos/g906.png)](./Fotos/Video_Bascula_Funcionamiento.mp4)
+
+
+
 ## Mejoras futuras pendientes
 
 A los conectores de los sensores hay que conectarles un conector con su cable. Tenemos intención de desarrollar un PCB para simplificar las conexiones y el cableado necesario facilitando la usabilidad por los alumnos con diferente tecnología.
