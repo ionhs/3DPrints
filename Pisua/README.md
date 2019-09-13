@@ -58,12 +58,18 @@ Las señales de conexión de los 4 sensores, cuando están sin pulsar los sensor
 
 No hay que olvidarse de alimentar los 4 sensores, conectandolos a una fuente de alimentación de 5V y GND sus respectivos pines.
 
+Otra posibilidad en vez de montar los pull-up con resistencias fuera, es hacerlo mediante la activación de resistencias internas. En este caso se pueden ver los montajes con resistencias externas y con resistencias internas usando una placa [FPGA libre Alhambra II](https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre).
+
+| ![](./Fotos/Circuito_Pull-up_Ext.jpg) | ![](./Fotos/Pull-up.png)     | ![](./Fotos/Circuito_Pull-up_Int.jpg) |
+| ------------------------------------- | ---------------------------- | ------------------------------------- |
+| Circuito con Pull-up ext.             | Programación de Pull-up int. | Circuito con Pull-up int.             |
+
 [![Video de funcionamiento](./Fotos/g906.png)](./Fotos/Video_Bascula_Funcionamiento.mp4)
 
 
 
 ## Mejoras futuras pendientes
 
-A los conectores de los sensores hay que conectarles un conector con su cable. Tenemos intención de desarrollar un PCB para simplificar las conexiones y el cableado necesario facilitando la usabilidad por los alumnos con diferente tecnología.
-
 Sustituir la espoja por algún sistema amortiguado que se adecue mejor a un funcionamiento real.
+
+Mejorar el sistema mecánico para hacerlo con un diseño más atractivo y más robusto.
