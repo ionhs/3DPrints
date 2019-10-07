@@ -4,7 +4,7 @@ El objetivo es documentar la realización una báscula de control de peso didác
 
 ![](./Fotos/Bascula.jpg)
 
-La báscula está compuesta de piezas impresas en 3D que está disponibles en este repositorio, tanto en STL como en Freecad para su impresión y modificación. Además es necesario 4 finales de carrera (aunque se podría con menos).
+La báscula está compuesta de piezas impresas en 3D que está disponibles en este repositorio, [tanto en STL como en Freecad](./Piezas) para su impresión y modificación. Además es necesario 4 finales de carrera (aunque se podría con menos).
 
 Por otra parte se ha diseñado una pequeña PCB en Kicad para facilitar el cableado del circuito.
 
@@ -21,13 +21,14 @@ Por otra parte se ha diseñado una pequeña PCB en Kicad para facilitar el cable
 
 ## Componentes Mecánicos
 
-|  Nº  |     Nombre      |                         Descripción                          |             Imagen             |
-| :--: | :-------------: | :----------------------------------------------------------: | :----------------------------: |
-|  10  | Tornillos M3x6  |           Tornillos métricos philips de acero M3x6           | ![](./Fotos/Tornillo_M3x6.jpg) |
-|  6   | Tornillos M3x10 |          Tornillos métricos philips de acero M3x10           | ![](./Fotos/Tornill_M3x10.jpg) |
-|  1   |     Esponja     |              Esponja de dimensiones 11x9,5x2,5               |    ![](./Fotos/Esponja.png)    |
-|  4   |    Sensores     | Final de carrera de movimiento ENDSTOP para ramps 1,4 impresora 3D CR-10 CR-10S CR-S4 CR-S | ![](./Fotos/Final_Carrera.jpg) |
-|  4   |      Cable      | 3 cables multihilos con conectores para los sensores finales de carrera |     ![](./Fotos/Cable.jpg)     |
+|  Nº  |     Nombre      |                         Descripción                          |                            Imagen                            |
+| :--: | :-------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|  10  | Tornillos M3x6  |           Tornillos métricos philips de acero M3x6           |                ![](./Fotos/Tornillo_M3x6.jpg)                |
+|  6   | Tornillos M3x10 |          Tornillos métricos philips de acero M3x10           |                ![](./Fotos/Tornill_M3x10.jpg)                |
+|  1   |     Esponja     |              Esponja de dimensiones 11x9,5x2,5               |                   ![](./Fotos/Esponja.png)                   |
+|  4   |    Sensores     | Final de carrera de movimiento ENDSTOP para ramps 1,4 impresora 3D CR-10 CR-10S CR-S4 CR-S |                ![](./Fotos/Final_Carrera.jpg)                |
+|  4   |      Cable      | 3 cables multihilos con conectores para los sensores finales de carrera |                    ![](./Fotos/Cable.jpg)                    |
+|  1   |       PCB       | PCB del circuito diseñado en [Kicad](./Kicad-PisuPCB), con su [archivo CAM](./Kicad-PisuPCB/PCB_pisua_LPKF.cam) (CircuitCAM) y su [archivo BroadMaster](./Kicad-PisuPCB/PCB_pisua_LPKF.LMD) para mecanizar en la LPKF | ![](C:\Users\ionhs\Documents\3DPrints\Pisua\Fotos\IMG_20190218_134214.jpg) |
 
 ## Montaje de la báscula
 
@@ -47,6 +48,7 @@ Fotos del proceso de montaje de la báscula:
 | ![](./Fotos/IMG_20190724_122724.jpg) | ![](./Fotos/IMG_20190726_132925.jpg) | ![](./Fotos/IMG_20190726_132832.jpg) |
 
 * El cableado de los sensores a la PCB, se ha recortado a una medida ajustada y en un extremo se han puesto conectores futaba o JR.
+* 
 
 
 
